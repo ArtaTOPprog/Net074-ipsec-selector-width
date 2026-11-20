@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "При использовании материалов укажите авторов и название исследования."
+title: "NET074 Влияние ширины селектора Policy-based VPN на риск избыточного шифрования"
+type: software
+authors:
+  - family-names: "Муфахаров"
+    given-names: "Артур Марселевич"
+  - family-names: "Сафиуллин"
+    given-names: "Ярослав Александрович"

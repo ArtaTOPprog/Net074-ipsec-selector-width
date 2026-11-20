@@ -1,0 +1,10 @@
+{
+  "schema": "net074.policy.v2",
+  "scope": "isolated IPv4 laboratory; requirement separate from configured selector",
+  "required_protection": [{"src": "192.168.10.100/32", "dst": "192.168.20.10/32", "proto": "udp", "dport": 50074, "directions": "both"}],
+  "metadata_confidentiality_required": true,
+  "unexpected_encryption": "report policy deviation, not automatically an exploit",
+  "asymmetric_route": "report observation; service violation only if independently confirmed",
+  "selectors": {"S1": "192.168.20.10/32", "S2": "192.168.20.0/24", "S3": "192.0.0.0/2"},
+  "unknown": "must not be converted into protected or unprotected"
+}

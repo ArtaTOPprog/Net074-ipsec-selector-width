@@ -1,0 +1,237 @@
+{
+  "scope": "Retrospective WAN audit, not endpoint delivery measurement",
+  "runs": 45,
+  "class_comparisons": 225,
+  "aggregate_mismatches": 0,
+  "seed_mismatches": 0,
+  "totals": {
+    "S1": {
+      "sent": 15000,
+      "captured_at_WAN": 15000,
+      "plain_expected": 9059,
+      "plain_unique_ids": 9059,
+      "P_metadata_ICMP": 88,
+      "Cisco_ICMP": 151,
+      "external_ICMP": 151,
+      "unique_P_5tuples_across_runs": 15
+    },
+    "S2": {
+      "sent": 15000,
+      "captured_at_WAN": 15000,
+      "plain_expected": 4541,
+      "plain_unique_ids": 4541,
+      "P_metadata_ICMP": 80,
+      "Cisco_ICMP": 150,
+      "external_ICMP": 151,
+      "unique_P_5tuples_across_runs": 15
+    },
+    "S3": {
+      "sent": 15000,
+      "captured_at_WAN": 15000,
+      "plain_expected": 0,
+      "plain_unique_ids": 0,
+      "P_metadata_ICMP": 69,
+      "Cisco_ICMP": 111,
+      "external_ICMP": 151,
+      "unique_P_5tuples_across_runs": 15
+    }
+  },
+  "statistics": [
+    {
+      "selector": "S1",
+      "metric": "Y1",
+      "n": 15,
+      "mean": 39.60666666666667,
+      "sd": 1.535981150677994,
+      "ci95_low": 38.756068657229974,
+      "ci95_high": 40.457264676103364
+    },
+    {
+      "selector": "S1",
+      "metric": "Y2",
+      "n": 15,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    {
+      "selector": "S1",
+      "metric": "Y3",
+      "n": 15,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    {
+      "selector": "S1",
+      "metric": "V_ESP",
+      "n": 15,
+      "mean": 118820,
+      "sd": 4607.943452033983,
+      "ci95_low": 116268.20597168992,
+      "ci95_high": 121371.79402831008
+    },
+    {
+      "selector": "S1",
+      "metric": "V_plain",
+      "n": 15,
+      "mean": 438110.13333333336,
+      "sd": 11337.510118859347,
+      "ci95_low": 431831.6295022067,
+      "ci95_high": 444388.63716446003
+    },
+    {
+      "selector": "S1",
+      "metric": "V_WAN",
+      "n": 15,
+      "mean": 556930.1333333333,
+      "sd": 7966.369578839954,
+      "ci95_low": 552518.5049072896,
+      "ci95_high": 561341.761759377
+    },
+    {
+      "selector": "S1",
+      "metric": "excess_ESP_bytes_pct",
+      "n": 15,
+      "mean": 0.0,
+      "sd": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    {
+      "selector": "S2",
+      "metric": "Y1",
+      "n": 15,
+      "mean": 69.72666666666666,
+      "sd": 1.2786525645977416,
+      "ci95_low": 69.01857247831813,
+      "ci95_high": 70.43476085501518
+    },
+    {
+      "selector": "S2",
+      "metric": "Y2",
+      "n": 15,
+      "mean": 43.48397789286856,
+      "sd": 1.4611185842180692,
+      "ci95_low": 42.67483739089153,
+      "ci95_high": 44.293118394845585
+    },
+    {
+      "selector": "S2",
+      "metric": "Y3",
+      "n": 15,
+      "mean": 77.05139253816387,
+      "sd": 4.577952486483591,
+      "ci95_low": 74.51620695298931,
+      "ci95_high": 79.58657812333843
+    },
+    {
+      "selector": "S2",
+      "metric": "V_ESP",
+      "n": 15,
+      "mean": 298732,
+      "sd": 7838.03196873151,
+      "ci95_low": 294391.4425735229,
+      "ci95_high": 303072.5574264771
+    },
+    {
+      "selector": "S2",
+      "metric": "V_plain",
+      "n": 15,
+      "mean": 281116.5333333333,
+      "sd": 11967.370769045703,
+      "ci95_low": 274489.22430037556,
+      "ci95_high": 287743.8423662911
+    },
+    {
+      "selector": "S2",
+      "metric": "V_WAN",
+      "n": 15,
+      "mean": 579848.5333333333,
+      "sd": 7116.290183863526,
+      "ci95_low": 575907.663185092,
+      "ci95_high": 583789.4034815746
+    },
+    {
+      "selector": "S2",
+      "metric": "excess_ESP_bytes_pct",
+      "n": 15,
+      "mean": 60.401986250718146,
+      "sd": 1.5987735929856197,
+      "ci95_low": 59.516614945781726,
+      "ci95_high": 61.287357555654566
+    },
+    {
+      "selector": "S3",
+      "metric": "Y1",
+      "n": 15,
+      "mean": 100.0,
+      "sd": 0.0,
+      "ci95_low": 100.0,
+      "ci95_high": 100.0
+    },
+    {
+      "selector": "S3",
+      "metric": "Y2",
+      "n": 15,
+      "mean": 59.64666666666667,
+      "sd": 1.319018394037598,
+      "ci95_low": 58.91621862706441,
+      "ci95_high": 60.37711470626893
+    },
+    {
+      "selector": "S3",
+      "metric": "Y3",
+      "n": 15,
+      "mean": 148.05795019001283,
+      "sd": 8.099522664954753,
+      "ci95_low": 143.57258404267643,
+      "ci95_high": 152.54331633734924
+    },
+    {
+      "selector": "S3",
+      "metric": "V_ESP",
+      "n": 15,
+      "mean": 595862.4,
+      "sd": 9343.90176073602,
+      "ci95_low": 590687.9196787111,
+      "ci95_high": 601036.880321289
+    },
+    {
+      "selector": "S3",
+      "metric": "V_plain",
+      "n": 15,
+      "mean": 0,
+      "sd": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    {
+      "selector": "S3",
+      "metric": "V_WAN",
+      "n": 15,
+      "mean": 595862.4,
+      "sd": 9343.90176073602,
+      "ci95_low": 590687.9196787111,
+      "ci95_high": 601036.880321289
+    },
+    {
+      "selector": "S3",
+      "metric": "excess_ESP_bytes_pct",
+      "n": 15,
+      "mean": 79.67134755053247,
+      "sd": 0.9237353599526734,
+      "ci95_low": 79.15979995890011,
+      "ci95_high": 80.18289514216484
+    }
+  ],
+  "limitations": [
+    "No pre-encryption or post-decryption capture",
+    "No receiver log",
+    "ESP class attribution conditional on disjoint calibrated lengths",
+    "No CPU or service goodput data",
+    "No full independent audit baseline"
+  ]
+}
